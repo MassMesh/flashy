@@ -3,7 +3,7 @@ if [ "$#" -ne 2 ]; then
   echo -e "Usage: ./flasher ROUTER_IP PASSWORD\n";
   echo "Prerequisites: ";
   echo "  Must be on firmware 2.11.20 Chinese version";
-  echo "  Must have completed initial router setup with password set to \"password\"";
+  echo "  Must have completed initial router setup";
   exit 0;
 fi
 
